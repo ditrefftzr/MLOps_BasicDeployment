@@ -81,6 +81,6 @@ def load_and_log():
         # ✍️ Save the artifact to W&B.
         run.log_artifact(raw_data)
 
-# testing
+# testing workflow
 if __name__ == "__main__":
     load_and_log()
