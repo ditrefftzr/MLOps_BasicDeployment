@@ -101,7 +101,7 @@ def train_and_log():
                 "features": X_train.shape[1]
             })
         
-        # Save locally first
+        # Save locally first push!
         trained_model_path = "trained_model.pkl"
         with open(trained_model_path, 'wb') as f:
             pickle.dump(model, f)
