@@ -68,7 +68,7 @@ def load_and_log():
                 "source": "sklearn.datasets.load_diabetes",
                 "sizes": {name: data['X'].shape[0] for name, data in datasets.items()},
                 "features": len(feature_names),
-                "feature_names": feature_names.tolist(),
+                "feature_names": feature_names,
                 "target": "diabetes_progression",
                 "target_type": "continuous"
             })
