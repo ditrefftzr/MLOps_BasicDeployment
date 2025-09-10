@@ -14,7 +14,7 @@ if args.IdExecution:
 else:
     args.IdExecution = "testing console"
 
-# Check if the directory "./model" exists
+# Check if the directory "./model" exists test
 if not os.path.exists("./model"):
     os.makedirs("./model")
 
