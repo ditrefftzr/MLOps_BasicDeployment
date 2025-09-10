@@ -3,7 +3,7 @@ import pickle
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.pipeline import Pipeline
 
-#testing
+#testing workflow
 import os
 import argparse
 import wandb
